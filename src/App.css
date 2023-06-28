@@ -2,37 +2,52 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-image: linear-gradient(129deg, rgba(86, 179, 239, 0.6) 0%, rgba(186, 119, 255, 0.6) 38%, rgba(253, 221, 235, 0.6) 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.appointment-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.appointment-details {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  flex: 1 1 300px;
+  background-color: #fdfdfd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appointment-details p {
+  margin-bottom: 0px;
+}
+
+.info {
+  margin-bottom: 14px;
+}
+
+button {
+  color: #ba77ff;
+  background-color: #f2e4ff;
+  border: 0;
+  border-radius: 48px;
+  padding: 7px 17px;
+  text-transform: uppercase;
+  transition: .1s ease-in;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ba77ff;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
 }
