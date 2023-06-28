@@ -1,3 +1,15 @@
+# Getting Started 
+
+This project needs to be run locally alongside https://github.com/valentinaperic/veterinariansapi. 
+
+1. run https://github.com/valentinaperic/veterinariansapi locally
+2. run this project locally with `npm start`
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+Please note: I enabled CORS in the API for http://localhost:3000 so it must be on this route 
+
+Happy hacking :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
